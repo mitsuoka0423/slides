@@ -1,0 +1,15 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "html": "marp 20240123-protoout-lt.md --output ./slides/html/20240123-protoout-lt.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}

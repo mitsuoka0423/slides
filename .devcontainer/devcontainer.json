@@ -1,0 +1,20 @@
+{
+  "name": "slides dev container",
+  "build": {
+    "dockerfile": "./Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ionutvmi.path-autocomplete",
+        "Gruntfuggly.todo-tree",
+        "marp-team.marp-vscode",
+        "oderwat.indent-rainbow",
+        "poyonshot.markdowncat",
+        "ms-azuretools.vscode-docker",
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "postCreateCommand": "npm i"
+}
